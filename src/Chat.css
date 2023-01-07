@@ -1,0 +1,98 @@
+
+.chatheaderinfo > h3, p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+.chatheader{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+}
+.chatheaderinfo {
+    flex: 1;
+    padding-left: 20px;
+
+}
+
+.chatheaderinfo > p {
+    color: rgb(163, 163, 163);
+}
+.chatbody{
+    flex: 1;
+    background-image: url("https://preview.redd.it/ts7vuoswhwf41.jpg?width=640&crop=smart&auto=webp&s=803e1cd74e328f84ee30108c86e7d38ec849fc8a");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+   
+    
+  
+    /* overflow: scroll;
+    scrollbar-color: rebeccapurple #e7e7e7e8; */
+}
+
+    
+.chatmessage{
+    color: #e7e7e7e8;
+}
+.chatmessage{
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #252525;
+    margin-bottom: 50px;
+}
+.chattimestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chatname{
+    position: absolute;
+    top: -19px;
+    font-weight: 800;
+    font-size: x-small;
+    color: #ffffff;
+    
+}
+.chatrecevier {
+    margin-left: auto;
+    background-color: #dcf8c6;
+    color: #000000;
+
+}
+.chatfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    padding: 0 10px;
+
+}
+.chatfooter > form{
+    flex: 1;
+    display: flex;
+}
+.chatfooter > form > input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+   
+}
+.chatfooter > form > button {
+ display: none;
+}
+.chatfooter > .MuiSvgIcon-root {
+    padding: 10px;
+    color:#e7e7e7b2;
+}
